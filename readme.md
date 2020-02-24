@@ -12,4 +12,8 @@ This yields a single score for each episode.
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 </p>
 <h2>Getting Started</h2>
+<p>
+For this project, you will not need to install Unity - this is because an environment is already built, and you can download it from the link below (64-bit Windows):
+https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
+</p>
 <h2>Instructions</h2>
