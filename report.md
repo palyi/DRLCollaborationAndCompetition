@@ -19,6 +19,7 @@ Both actor and critic weights are represented in neural networks. These two use 
 <h2>Plot of Rewards</h2>
 List of scores for the final episodes were seen as below:<br>
 ![ListScores](https://github.com/palyi/DRLCollaborationAndCompetition/blob/master/scores_list.JPG)<br>
+As the list in this above screenshot shows, number of episodes needed to solve the environment is: 2825<br>
 <br>
 The overall plot of scores I've included under the below link:<br>
 ![PlotScores](https://github.com/palyi/DRLCollaborationAndCompetition/blob/master/scores_plot.JPG)<br>
