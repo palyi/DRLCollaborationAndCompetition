@@ -17,3 +17,4 @@ For this project, you will not need to install Unity - this is because an enviro
 https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 </p>
 <h2>Instructions</h2>
+<p>I built this solution on the 'frame' of the previous project entirely. The model is re-used with some very minor neuron number modifications, and so is the agent with slightly modified hyperparameters. The training process takes can be launched by running tennis.py. To watch the agent in action, please run test_trained.py.</p>
