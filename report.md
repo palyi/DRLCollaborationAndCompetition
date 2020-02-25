@@ -17,5 +17,10 @@ The models applied are contained in the file named model.py
 Both actor and critic weights are represented in neural networks. These two use 3 fully connected layers with a batch normalizer after the input layer. Regarding inputs, these networks employ a number of input neurons matching the number of state descriptors (8). In line with the general format of DDPG implementations, these neural networks are instantiated in the file named ddpg_agent.py, creating two of each type, e.g. actor and critic networks both exist in local and target "versions", realizing the DDPG "mechanics".
 </p>
 <h2>Plot of Rewards</h2>
-![ListScores](https://github.com/palyi/DRLCollaborationAndCompetition/scores_list.JPG)<br>
+List of scores for the final episodes were seen as below:<br>
+![ListScores](https://github.com/palyi/DRLCollaborationAndCompetition/blob/master/scores_list.JPG)<br>
+<br>
+The overall plot of scores I've included under the below link:<br>
+![PlotScores](https://github.com/palyi/DRLCollaborationAndCompetition/blob/master/scores_plot.JPG)<br>
 <h2>Ideas for Future Work</h2>
+As mentioned above, this is a rather simple - yet working - first implementation. There are further, more complex ways to implement multiagent DRL, which I would try as next idea. Additionally, my aim is to build some real-world scenario utilizing such learning algorithms (based on some prototyping electronics, servos, sensors and such).
