@@ -23,9 +23,9 @@ https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64
 <p>I built this solution on the 'frame' of the previous project entirely. The model is re-used with some very minor neuron number modifications, and so is the agent with slightly modified hyperparameters. The training process takes can be launched by running tennis.py. To watch the agent in action, please run test_trained.py.</p>
 <h2>Installing Dependencies and downloading needed files.</h2>
 <p>
-1. Install Anaconda and create an environment
+1. Install Anaconda and create an environment<br>
 2. Install pyTorch by pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
-  This command lets you install pyTorch via Pip, in a Windows environment, utilizing CUDA 10.1 (commands for other environments can be generated at pyTorch.org
-3. Install Unity Machine Learning Agents by pip install mlagents
-4. The environment is provided by a Windows (64-bit) executable, which can be downloaded from: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
+  This command lets you install pyTorch via Pip, in a Windows environment, utilizing CUDA 10.1 (commands for other environments can be generated at pyTorch.org<br>
+3. Install Unity Machine Learning Agents by pip install mlagents<br>
+4. The environment is provided by a Windows (64-bit) executable, which can be downloaded from: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip<br>
 </p>
